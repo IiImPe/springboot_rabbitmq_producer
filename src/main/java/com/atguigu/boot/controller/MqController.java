@@ -10,6 +10,7 @@ public class MqController {
 
     @RabbitListener(queues = "boot_queue01")
     public void consume(Message message) {
+        System.out.println("lll");
         System.out.println("消息本身的内容: " + new String(message.getBody()));
     }
 }
