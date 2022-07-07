@@ -13,6 +13,7 @@ public class MqController {
         System.out.println("lll");
         System.out.println("github test");
         System.out.println("得得得得是独立开发经理");
+        System.out.println("pull立开发经理");  
         System.out.println("消息本身的内容: " + new String(message.getBody()));
     }
 }
